@@ -1,0 +1,13 @@
+CLASS: People
+OBJECT: COOKS
+ATTRIBUTES:
+creativity-artistry
+cook-skill level
+food appreciation
+prep-duration
+
+METHODS:
+Create
+Cook
+Taste
+Share
