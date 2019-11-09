@@ -1,0 +1,13 @@
+RESTAURANT EXAMPLE:
+CLASS: Kitchen
+ATTRIBUTES:
+stove_on/off(boolean)
+food{"pasta"}
+cooks (4)
+refrigerator_empty/full(boolean)
+freezer("object")
+METHODS:
+can be line prepped(fridge_full=true)
+can be cooked in(stove_on=true)
+can be used for making food{"pasta"}
+can be used for creating recipes(cook)
