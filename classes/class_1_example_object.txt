@@ -1,0 +1,7 @@
+ITALIAN KITCHEN CLASS: ITALIAN FOOD
+can be bought(cost$)
+can be created (number of cooks)
+can be made (ingredients,8)
+can be measured (size in weight)
+can be eaten (reviewed +/-)
+ 
