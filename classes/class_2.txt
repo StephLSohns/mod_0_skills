@@ -1,0 +1,10 @@
+RESTAURANT EXAMPLE
+CLASS: People
+Instances: cooks, customers, sommeliers, managers
+Attributes: hunger, thirst, nose, palate, eyes
+METHODS:
+drink(quenches thirst)
+eat(satiates hunger)
+smell(fills the nose)
+taste(expands the palate)
+look(eyes take in the food aesthetic)
