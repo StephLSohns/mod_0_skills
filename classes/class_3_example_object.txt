@@ -15,21 +15,3 @@ CLASS: DESK
     decreaseDeskTopDepth: 1.5
     alterDeskUse: ["writing" , "working"]
     isDeskStyleRollTop: no = false
-
-
-
-CLASS: BOOK
-
-  CLASS INSTANCE: NON-FICTION BOOK
-  typeOfBook: "cookbook"
-  numberOfPages: (58 + 1)
-  readingForm: "hardcover"
-  goodRead: opinion bad = false
-  genreOfTypeOfBook "Italian Pastas"
-
-METHODS:
-  changeTypeOfBook: "book of fiction"
-  keepTrackOfNumberOfPages: (123 + 1)
-  alterReadingForm "paperback"
-  isGoodRead = yes = good opinion of booK = true
-  readGenreOfTypeOfBook "Fantasy"
