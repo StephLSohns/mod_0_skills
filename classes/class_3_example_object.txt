@@ -1,0 +1,35 @@
+CLASS: DESK
+
+  CLASS INSTANCE: Roll-Top Desk (to Executive Desk)
+    deskTopShape:"oval"
+    numberOfLegs: 4
+    deskLegsShape: "square"
+    deskTopDepth: 2.5
+    deskUse: ["eating" , "working" , "writing" , studying]
+    deskStyleRollTop: true
+
+  METHODS:
+    changeDeskTopShape: "rectangular"
+    increaseNumberOfLegs: 6
+    replaceDeskLegsShape: "cylinder"
+    decreaseDeskTopDepth: 1.5
+    alterDeskUse: ["writing" , "working"]
+    isDeskStyleRollTop: no = false
+
+
+
+CLASS: BOOK
+
+  CLASS INSTANCE: NON-FICTION BOOK
+  typeOfBook: "cookbook"
+  numberOfPages: (58 + 1)
+  readingForm: "hardcover"
+  goodRead: opinion bad = false
+  genreOfTypeOfBook "Italian Pastas"
+
+METHODS:
+  changeTypeOfBook: "book of fiction"
+  keepTrackOfNumberOfPages: (123 + 1)
+  alterReadingForm "paperback"
+  isGoodRead = yes = good opinion of booK = true
+  readGenreOfTypeOfBook "Fantasy"

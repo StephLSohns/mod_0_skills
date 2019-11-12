@@ -1,0 +1,17 @@
+CLASS: DESK
+
+  ATTRIBUTES:
+    deskTopShape("string")
+    numberOfLegs(integer)
+    deskLegsShape("string")
+    deskTopDepth(float)
+    deskUse[array]
+    deskStyleRollTop(boolean)
+
+  METHODS:
+    changeDeskTopShape(changes current shape)
+    increaseNumberOfLegs(increases number of legs supporting the desk)
+    replaceDeskLegsShape(the current shape of the square desk legs are replaced by cylinder shaped table legs)
+    decreaseDeskTopDepth(decreases current thickness of desk top depth)
+    alterDeskUse(alters deskUse attribute for what you are using the table for)
+    isDeskStyleRollTop(yes answer = true)

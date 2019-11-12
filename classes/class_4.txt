@@ -1,0 +1,15 @@
+CLASS: BOOK
+
+  ATTRIBUTES:
+    typeOfBook("string")
+    numberOfPages(integer)
+    readingForm("string")
+    goodRead(boolean)
+    genreOfTypeOfBook("string")
+
+  METHODS:
+  changeTypeOfBook(changes the type of book that the reader is reading)
+  keepTrackOfNumberOfPages(this keeps track of what page the reader is on in the book, plus one)
+  alterReadingForm(this alters the form of the book being read)
+  isGoodRead(is the opinion of book good? if good = true)
+  determineGenreOfTypeOfBook(this determines what genre of book type the reader reads)
